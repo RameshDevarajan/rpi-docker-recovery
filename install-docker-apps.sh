@@ -8,7 +8,7 @@ echo "📁 Creating app folder..."
 mkdir -p ~/docker-apps && cd ~/docker-apps
 
 echo "⬇️ Downloading docker-compose.yml..."
-curl -O https://raw.githubusercontent.com/<your-username>/rpi-docker-recovery/main/docker-compose.yml
+curl -O https://raw.githubusercontent.com/RameshDevarajan/rpi-docker-recovery/main/docker-compose.yml
 
 echo "🚀 Deploying stack..."
 docker compose up -d
